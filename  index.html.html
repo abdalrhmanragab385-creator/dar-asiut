@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>دار للعقارات | شقق للبيع والإيجار في أسيوط</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&amp;family=El+Messiri:wght@500;700&amp;family=Tajawal:wght@400;500;700&amp;display=swap">
+<style>
+:root{--ink:#121110;--ink2:#1c1a17;--gold:#c9a227;--gold2:#e2c25a;--ivory:#f5f0e4;--card:#fffdf7;--line:#e2d9c4;--mut:#6b6556;--mutd:#b9b19c;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth;background:var(--ink)}
+body{margin:0;background:var(--ivory);color:var(--ink2);font-family:Tajawal,Tahoma,sans-serif;line-height:1.8;font-size:17px}
+h1,h2,h3{font-family:'El Messiri',Tajawal,serif;line-height:1.3;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.dark{background:var(--ink);color:var(--ivory)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--gold)}
+.logo .m{width:46px;height:42px}.logo .w{font-family:'Aref Ruqaa',serif;font-weight:700;font-size:3.6rem;line-height:1.1;padding-bottom:6px}
+.logo .lat{font-size:.7rem;letter-spacing:.35em;color:var(--mutd)}
+.btn{display:inline-block;background:var(--gold);color:var(--ink);padding:8px 20px;border-radius:6px;text-decoration:none;font-weight:700}
+.btn.ghost{background:none;color:var(--ivory);border:1px solid var(--gold)}
+.hero{display:grid;grid-template-columns:1fr;gap:24px;padding:36px 0 78px;align-items:center}
+.hero h1{font-size:clamp(2.3rem,8vw,4rem)}
+.hero p{max-width:46ch;color:var(--mutd);margin:14px 0 22px}
+.hero .acts{display:flex;gap:12px;flex-wrap:wrap}
+.big{display:grid;justify-items:center;color:var(--gold);line-height:1}.big svg{width:60px;height:55px}.big span{font-family:'Aref Ruqaa',serif;font-weight:700;font-size:clamp(6rem,30vw,10.5rem)}
+@media (min-width:760px){.hero{grid-template-columns:1.4fr 1fr}.big{justify-self:center}}
+.search{margin-top:-44px;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:8px;padding:18px;display:grid;gap:14px;box-shadow:0 10px 28px rgba(18,17,16,.16);position:relative}
+.tabs{display:flex;gap:6px;background:#efe8d6;padding:4px;border-radius:6px}
+.tabs button{flex:1;border:0;background:none;font:inherit;font-weight:700;padding:9px;border-radius:4px;color:var(--mut);cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--ink);color:var(--gold2)}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+label{display:grid;gap:4px;font-size:.9rem;color:var(--mut)}
+select,input,textarea{font:inherit;color:var(--ink2);background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px;width:100%}
+section{padding:54px 0}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:22px}
+.head h2{font-size:1.9rem}
+.count{color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column}
+.pic{height:104px;background:var(--ink);color:var(--gold);display:flex;align-items:center;justify-content:center;position:relative}
+.pic svg{width:46px;height:42px;opacity:.55}
+.tag{position:absolute;top:12px;right:12px;font-size:.85rem;font-weight:700;padding:1px 12px;border-radius:4px}
+.tag.sale{background:var(--gold);color:var(--ink)}.tag.rent{background:var(--ivory);color:var(--ink)}
+.body{padding:16px;display:grid;gap:8px;flex:1}
+.body h3{font-size:1.2rem}
+.loc{color:var(--mut);font-size:.95rem}
+.specs{display:flex;gap:16px;font-size:.95rem;padding:8px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.price{font-family:'El Messiri',serif;font-size:1.35rem;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.price small{font-family:Tajawal;font-size:.9rem;font-weight:400;color:var(--mut)}
+.price a{font-family:Tajawal;font-size:.9rem;background:var(--ink);color:var(--gold2);padding:5px 14px;border-radius:6px;text-decoration:none;font-weight:500}
+.empty{padding:30px;text-align:center;color:var(--mut);border:1px dashed var(--line);border-radius:8px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips button{font:inherit;background:none;color:var(--ivory);border:1px solid #4a4332;border-radius:30px;padding:5px 16px;cursor:pointer}
+.chips button:hover{border-color:var(--gold);color:var(--gold2)}
+.why .grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.why h3{font-size:1.25rem;margin-bottom:4px;color:var(--gold2)}
+.why p{margin:0;color:var(--mutd)}
+.contact{display:grid;gap:30px;grid-template-columns:1fr}
+@media (min-width:760px){.contact{grid-template-columns:1fr 1fr}}
+form{display:grid;gap:12px}
+button.go{font:inherit;font-weight:700;background:var(--ink);color:var(--gold2);border:0;padding:12px;border-radius:6px;cursor:pointer}
+.info p{margin:0 0 10px}
+footer{padding:26px 0;text-align:center;font-size:.9rem;color:var(--mutd)}
+footer .logo{justify-content:center;margin-bottom:8px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+[hidden]{display:none!important}
+.pic{height:150px;overflow:hidden}.pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card{cursor:pointer}
+.more{font:inherit;background:var(--ink);color:var(--gold2);padding:5px 14px;border-radius:6px;border:0;font-size:.9rem;cursor:pointer}
+.st{display:inline-block;font-size:.9rem;font-weight:500;padding:3px 10px;border-radius:4px}
+.st.free{background:#e3efd9;color:#2f5a1c}.st.full{background:#f3dcd6;color:#7a2b1b}
+.acts{display:flex;gap:10px;flex-wrap:wrap}
+.btn.sm{padding:4px 14px;font-size:.9rem}.btn.d{background:var(--ink);color:var(--gold2)}
+dialog{border:0;padding:0;border-radius:10px;width:min(720px,94vw);max-height:92vh;background:var(--card);color:var(--ink2)}
+dialog::backdrop{background:rgba(18,17,16,.75)}
+.dh{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;background:var(--ink);color:var(--ivory)}
+.dh h3{font-size:1.2rem}.x{font:inherit;background:var(--gold);color:var(--ink);border:0;border-radius:6px;padding:4px 14px;cursor:pointer;font-weight:700}
+.gal{position:relative;background:var(--ink);aspect-ratio:16/10;display:grid;place-items:center;color:var(--gold)}
+.gal img{width:100%;height:100%;object-fit:contain}
+.gn{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:rgba(18,17,16,.7);color:var(--gold2);font-size:1.6rem;line-height:1;cursor:pointer}.gn.r{right:10px}.gn.l{left:10px}
+.nop{text-align:center}.nop svg{width:56px;height:50px;opacity:.5}.nop p{margin:6px 0 0;color:var(--mutd)}
+.thumbs{display:flex;gap:6px;overflow-x:auto;padding:8px 18px;background:var(--ink)}
+.thumbs button{border:2px solid transparent;padding:0;background:none;border-radius:4px;cursor:pointer;flex:none}.thumbs button.on{border-color:var(--gold)}.thumbs img{display:block;width:64px;height:48px;object-fit:cover}
+.dd{padding:18px;display:grid;gap:12px}
+.beds{display:flex;flex-wrap:wrap;gap:8px}.bed{padding:5px 12px;border-radius:6px;font-size:.9rem;border:1px solid}
+.bed.ok{background:#e3efd9;border-color:#6d9a52;color:#2f5a1c}.bed.bk{background:#f3dcd6;border-color:#c07562;color:#7a2b1b}
+.mg{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.mgc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:8px;padding:18px;display:grid;gap:6px}
+.mgc h3{font-size:1.35rem}.mgc .en{color:var(--mut);font-size:.9rem;direction:ltr;text-align:right}
+.mgc .ph{font-family:'El Messiri',serif;font-size:1.3rem;font-weight:700;text-decoration:none}.mgc .acts{margin-top:6px}
+#form{max-width:520px}
+.abar{background:var(--gold);color:var(--ink);padding:8px 0}.abar .wrap{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.abtn{font:inherit;font-weight:700;background:var(--ink);color:var(--gold2);border:0;border-radius:6px;padding:6px 16px;cursor:pointer}
+.ff{padding:18px;display:grid;gap:10px}.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pv{display:flex;gap:8px;flex-wrap:wrap}.pv div{position:relative}.pv img{width:72px;height:54px;object-fit:cover;border-radius:4px;display:block}
+.rm{position:absolute;top:-6px;left:-6px;width:22px;height:22px;border-radius:50%;border:0;background:#a3261a;color:#fff;cursor:pointer;line-height:1}
+.err{color:#a3261a;font-size:.9rem;min-height:1.2em}
+</style>
+<style>artifact-sync,artifact-local{display:contents}</style></head>
+<body>
+<div id="adminslot" data-dyn=""></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="mark" viewBox="0 0 50 46"><path d="M5 42V20L25 4L45 20V42Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"></path><circle cx="25" cy="25" r="5" fill="currentColor"></circle><path d="M22 29H28L30 38H20Z" fill="currentColor"></path></symbol>
+<symbol id="word" viewBox="-8 -12 84 66"><g fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M48 6H62Q68 6 67 14L64 24Q62 32 50 34"></path><path d="M38 -6V34"></path><path d="M26 14Q26 36 10 40Q4 42 -2 48"></path></g></symbol>
+</svg>
+
+<header class="dark">
+ <div class="wrap">
+  <div class="nav">
+   <a class="logo" href="#" aria-label="دار للعقارات"><svg class="m"><use href="#mark"></use></svg><span class="w">دار</span><span class="lat">DAR</span></a>
+   <a class="btn" href="tel:+201091205622">اتصل بنا</a>
+  </div>
+  <div class="hero">
+   <div>
+    <h1>مفتاح بيتك في أسيوط</h1>
+    <p>دار للعقارات: شقق للبيع وللإيجار في الهضبة والأربعين وأسيوط الجديدة وباقي أحياء المدينة، بأسعار واضحة ومعاينة قبل أي التزام.</p>
+    <div class="acts"><a class="btn" href="#units">شاهد الوحدات</a><a class="btn ghost" href="https://wa.me/201091205622">واتساب</a></div>
+   </div>
+   <div class="big" aria-hidden="true"><svg><use href="#mark"></use></svg><span>دار</span></div>
+  </div>
+ </div>
+</header>
+
+<main>
+<div class="wrap">
+ <div class="search" role="search">
+  <div class="tabs" id="tabs">
+   <button aria-pressed="true" data-t="all">الكل</button>
+   <button aria-pressed="false" data-t="sale">للبيع</button>
+   <button aria-pressed="false" data-t="rent">للإيجار</button>
+  </div>
+  <div class="fields">
+   <label>المنطقة<select id="area" data-dyn=""></select></label>
+   <label>عدد الغرف
+    <select id="rooms"><option value="0">أي عدد</option><option value="2">2 أو أكثر</option><option value="3">3 أو أكثر</option></select>
+   </label>
+  </div>
+ </div>
+</div>
+
+<section id="units">
+ <div class="wrap">
+  <div class="head"><h2>الوحدات المتاحة</h2><span class="count" id="count" aria-live="polite" data-dyn=""></span></div>
+  <div class="grid" id="list" data-dyn=""></div>
+ </div>
+</section>
+
+<section class="dark">
+ <div class="wrap">
+  <div class="head"><h2>مناطق نغطيها في أسيوط</h2></div>
+  <div class="chips" id="chips" data-dyn=""></div>
+ </div>
+</section>
+
+<section class="dark why" style="padding-top:0">
+ <div class="wrap">
+  <div class="head"><h2>ليه دار؟</h2></div>
+  <div class="grid">
+   <div><h3>نعرف أسيوط</h3><p>نشتغل في المحافظة وحدها، فنعرف الأحياء والأسعار والخدمات حول كل وحدة.</p></div>
+   <div><h3>معاينة قبل القرار</h3><p>نحدد لك موعد معاينة في نفس الأسبوع، وتشوف الوحدة قبل أي التزام.</p></div>
+   <div><h3>أوراق سليمة</h3><p>نراجع معك مستندات الملكية وعقود الإيجار خطوة بخطوة حتى التسليم.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="contact"><div class="wrap"><div class="head"><h2>الإدارة</h2></div><div class="grid mg"><div class="mgc"><h3>عبدالرحمن رجب</h3><span class="en">Abdalrhman Ragab</span><a class="ph" dir="ltr" href="tel:+201091205622">0109 120 5622</a><div class="acts"><a class="btn sm" href="tel:+201091205622">اتصال</a><a class="btn sm d" href="https://wa.me/201091205622">واتساب</a></div></div><div class="mgc"><h3>محمد جمال</h3><span class="en">Mohamed Gamal</span><a class="ph" dir="ltr" href="tel:+201034583121">0103 458 3121</a><div class="acts"><a class="btn sm" href="tel:+201034583121">اتصال</a><a class="btn sm d" href="https://wa.me/201034583121">واتساب</a></div></div><div class="mgc"><h3>أحمد محمد</h3><span class="en">Ahmed Mohamed</span><a class="ph" dir="ltr" href="tel:+201028076231">0102 807 6231</a><div class="acts"><a class="btn sm" href="tel:+201028076231">اتصال</a><a class="btn sm d" href="https://wa.me/201028076231">واتساب</a></div></div></div><h2 style="margin:36px 0 12px">ابعت طلبك</h2><form id="form"><label>الاسم<input id="n" required="" autocomplete="name"></label><label>تكلم مع<select id="who"><option value="01091205622">عبدالرحمن رجب</option><option value="01034583121">محمد جمال</option><option value="01028076231">أحمد محمد</option></select></label><label>طلبك<textarea id="m" rows="3" placeholder="مثال: شقة 3 غرف للإيجار في الهضبة"></textarea></label><button class="go" type="submit">أرسل على واتساب</button></form></div></section>
+</main>
+
+<footer class="dark">
+ <div class="wrap"><a class="logo" href="#" aria-label="دار للعقارات"><svg class="m"><use href="#mark"></use></svg><span class="w">دار</span></a>
+ © <span id="y">2026</span> دار للعقارات، أسيوط. جميع الحقوق محفوظة.</div>
+</footer>
+
+<dialog id="dlg"><div id="dbody" data-dyn=""></div></dialog>
+<script id="data" type="application/json">{"units":[{"id":"u1","t":"sale","a":"أسيوط الجديدة","n":"شقة 3 غرف بتشطيب سوبر لوكس","r":3,"b":2,"m":165,"p":1450000,"map":"","d":"","ph":[]},{"id":"u2","t":"rent","a":"المعلمين","n":"شقة 2 غرفة قريبة من الجامعة","r":2,"b":1,"m":110,"p":1500,"map":"","d":"","ph":[],"k":"beds","bt":4,"bk":1},{"id":"u3","t":"sale","a":"الهضبة","n":"شقة 4 غرف بالدور الثاني","r":4,"b":2,"m":190,"p":1900000,"map":"","d":"","ph":[]},{"id":"u4","t":"rent","a":"الأربعين","n":"شقة مفروشة 3 غرف","r":3,"b":2,"m":150,"p":9000,"map":"","d":"","ph":[],"k":"apt","vac":true},{"id":"u5","t":"sale","a":"الوليدية","n":"شقة 2 غرفة نصف تشطيب","r":2,"b":1,"m":105,"p":690000,"map":"","d":"","ph":[]},{"id":"u6","t":"rent","a":"شارع الجمهورية","n":"شقة 3 غرف بالدور الأول","r":3,"b":1,"m":130,"p":5500,"map":"","d":"","ph":[],"k":"apt","vac":false},{"id":"u7","t":"sale","a":"وسط البلد","n":"شقة 3 غرف على الشارع الرئيسي","r":3,"b":2,"m":155,"p":1250000,"map":"","d":"","ph":[]},{"id":"u8","t":"rent","a":"السادات","n":"شقة 3 غرف للطلبة","r":3,"b":1,"m":100,"p":1200,"map":"","d":"","ph":[],"k":"beds","bt":6,"bk":6},{"id":"u9","t":"sale","a":"خالد بن الوليد","n":"شقة 3 غرف ناصية","r":3,"b":2,"m":160,"p":1100000,"map":"","d":"","ph":[]},{"id":"u10","t":"rent","a":"تقسيم الأمريكان","n":"شقة 2 غرفة بتشطيب جديد","r":2,"b":1,"m":95,"p":3800,"map":"","d":"","ph":[],"k":"apt","vac":true}]}</script>
+<script data-keep="">
+(function(){
+var D=JSON.parse(document.getElementById("data").textContent),U=D.units;
+var areas=["الهضبة","المعلمين","المكتبات","مصنع سيد","شارع السبيل","شارع الجمهورية","الوليدية","فريال","الحمراء","الأربعين","السادات","وسط البلد","غرب البلد","شرق البلد","تقسيم الأمريكان","المجاهدين","خالد بن الوليد","أسيوط الجديدة"];
+var M=[["عبدالرحمن","01091205622"],["محمد","01034583121"],["أحمد","01028076231"]];
+var fm=new Intl.NumberFormat("ar-EG"),$=function(i){return document.getElementById(i)};
+var st={t:"all"},gi=0,cur=null,fph=[],edId=null,assets=null,art=null,admin=false;
+function wa(p,t){return"https://wa.me/20"+p.slice(1)+(t?"?text="+encodeURIComponent(t):"")}
+function src(id){return"/_blob/"+id}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function mapUrl(u){return esc(u.map&&/^https?:\/\//.test(u.map)?u.map:"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(u.a+" أسيوط"))}
+function status(u){if(u.t!="rent")return null;
+ if(u.k=="beds"){var f=u.bt-u.bk;if(f<=0)return{c:"full",x:"كل السراير محجوزة"};if(!u.bk)return{c:"free",x:"كل السراير متاحة ("+fm.format(u.bt)+")"};return{c:"free",x:fm.format(f)+" سرير متاح من "+fm.format(u.bt)+"، "+fm.format(u.bk)+" محجوز"}}
+ return u.vac?{c:"free",x:"الشقة فاضية بالكامل"}:{c:"full",x:"الشقة مؤجرة حاليًا"}}
+function plabel(u){return u.t=="sale"?"جنيه":(u.k=="beds"?"جنيه / للسرير شهريًا":"جنيه / شهريًا")}
+function specs(u){return'<div class="specs"><span>'+fm.format(u.r)+' غرف</span><span>'+fm.format(u.b)+' حمام</span><span>'+fm.format(u.m)+' م²</span></div>'}
+function card(u){var s=status(u);return'<article class="card" data-id="'+u.id+'"><div class="pic">'+(u.ph[0]?'<img alt="" loading="lazy" src="'+src(u.ph[0])+'">':'<svg aria-hidden="true"><use href="#mark"/></svg>')+'<span class="tag '+u.t+'">'+(u.t=="sale"?"للبيع":"للإيجار")+'</span></div><div class="body"><h3>'+esc(u.n)+'</h3><div class="loc">'+esc(u.a)+', أسيوط'+(u.ph.length?"، "+fm.format(u.ph.length)+" صور":"")+'</div>'+(s?'<div><span class="st '+s.c+'">'+s.x+'</span></div>':'')+specs(u)+'<div class="price"><span>'+fm.format(u.p)+' <small>'+plabel(u)+'</small></span><button class="more" type="button">التفاصيل</button></div></div></article>'}
+function render(){var a=$("area").value,r=+$("rooms").value;
+ var f=U.filter(function(u){return(st.t=="all"||u.t==st.t)&&(!a||u.a==a)&&u.r>=r});
+ $("count").textContent=fm.format(f.length)+" وحدة";
+ $("list").innerHTML=f.length?f.map(card).join(""):'<div class="empty">لا توجد وحدات بهذه المواصفات الآن. غيّر الفلتر أو تواصل معنا وسنبحث لك.</div>'}
+function beds(u){var h="";for(var i=0;i<u.bt;i++)h+='<span class="bed '+(i<u.bk?"bk":"ok")+'">سرير '+fm.format(i+1)+': '+(i<u.bk?"محجوز":"متاح")+'</span>';return'<div class="beds">'+h+'</div>'}
+function drawD(){var u=cur,s=status(u),p=u.ph,h='<div class="dh"><h3>'+esc(u.n)+'</h3><button type="button" class="x" data-x>إغلاق</button></div><div class="gal">';
+ if(p.length){h+='<img alt="صورة '+fm.format(gi+1)+' من '+fm.format(p.length)+'" src="'+src(p[gi])+'">';if(p.length>1)h+='<button type="button" class="gn r" data-g="-1" aria-label="السابق">›</button><button type="button" class="gn l" data-g="1" aria-label="التالي">‹</button>'}
+ else h+='<div class="nop"><svg aria-hidden="true"><use href="#mark"/></svg><p>لا توجد صور لهذه الوحدة بعد</p></div>';
+ h+='</div>';
+ if(p.length>1)h+='<div class="thumbs">'+p.map(function(x,i){return'<button type="button" data-i="'+i+'" class="'+(i==gi?"on":"")+'" aria-label="صورة '+fm.format(i+1)+'"><img alt="" src="'+src(x)+'"></button>'}).join("")+'</div>';
+ h+='<div class="dd">'+specs(u)+'<div class="price"><span>'+fm.format(u.p)+' <small>'+plabel(u)+'</small></span></div>';
+ if(s){h+='<div><span class="st '+s.c+'">'+s.x+'</span></div>';if(u.k=="beds")h+=beds(u)}
+ h+='<div class="loc">'+esc(u.a)+', أسيوط. <a href="'+mapUrl(u)+'" target="_blank" rel="noopener">افتح الموقع على الخريطة</a></div>';
+ if(u.d)h+='<p style="margin:0">'+esc(u.d)+'</p>';
+ h+='<div class="acts">'+M.map(function(m){return'<a class="btn sm" href="'+wa(m[1],"أريد الاستفسار عن: "+u.n+" - "+u.a)+'">واتساب '+m[0]+'</a>'}).join("")+'</div>';
+ if(admin)h+='<div class="acts"><button type="button" class="abtn" data-ed>تعديل</button><button type="button" class="abtn" data-del>حذف</button></div>';
+ $("dbody").innerHTML=h+'</div>'}
+function openD(id){cur=U.filter(function(u){return u.id==id})[0];if(!cur)return;gi=0;drawD();$("dlg").showModal()}
+function mark(){var m=$("amsg");if(m)m.textContent="تغييرات غير منشورة: اضغط نشر التغييرات"}
+function tog(){$("frent").hidden=$("ft").value!="rent";$("fapt").hidden=$("fk").value!="apt";$("fbeds").hidden=$("fk").value!="beds"}
+function drawPh(){$("fphv").innerHTML=fph.map(function(id,i){return'<div><img alt="" src="'+src(id)+'"><button type="button" class="rm" data-rm="'+i+'" aria-label="حذف الصورة">×</button></div>'}).join("")}
+function openF(u){edId=u?u.id:null;u=u||{t:"sale",a:areas[0],n:"",r:2,b:1,m:"",p:"",map:"",d:"",ph:[],k:"apt",vac:true,bt:4,bk:0};
+ $("ft").value=u.t;$("fa").value=u.a;$("fn").value=u.n;$("fr").value=u.r;$("fb").value=u.b;$("fm").value=u.m;$("fp").value=u.p;$("fmap").value=u.map||"";$("fd").value=u.d||"";$("fk").value=u.k||"apt";$("fv").checked=!!u.vac;$("fbt").value=u.bt||4;$("fbk").value=u.bk||0;fph=u.ph.slice();$("fer").textContent="";drawPh();tog();$("fdlg").showModal()}
+function save(){var n=$("fn").value.trim(),pr=+$("fp").value,t=$("ft").value,k=$("fk").value,bt=+$("fbt").value||0;
+ if(!n||!pr){$("fer").textContent="اكتب عنوان الوحدة والسعر.";return}
+ if(t=="rent"&&k=="beds"&&bt<1){$("fer").textContent="اكتب عدد السراير.";return}
+ var u={id:edId||("u"+Date.now()),t:t,a:$("fa").value,n:n,r:+$("fr").value||1,b:+$("fb").value||1,m:+$("fm").value||0,p:pr,map:$("fmap").value.trim(),d:$("fd").value.trim(),ph:fph.slice()};
+ if(t=="rent"){u.k=k;if(k=="beds"){u.bt=bt;u.bk=Math.min(+$("fbk").value||0,bt)}else u.vac=$("fv").checked}
+ var i=-1;U.forEach(function(x,j){if(x.id==u.id)i=j});if(i<0)U.unshift(u);else U[i]=u;
+ mark();$("fdlg").close();render()}
+function buildDoc(){var c=document.documentElement.cloneNode(true);
+ c.querySelectorAll("[data-dyn]").forEach(function(e){e.innerHTML=""});
+ c.querySelectorAll("script:not([data-keep]):not(#data)").forEach(function(e){e.remove()});
+ c.querySelectorAll("dialog").forEach(function(e){e.removeAttribute("open")});
+ c.querySelector("#data").textContent=JSON.stringify(D).replace(/</g,"\\u003c");
+ return"<!DOCTYPE html>\n"+c.outerHTML}
+function pub(){$("dlg").close();$("amsg").textContent="جاري النشر…";art.publish(buildDoc()).catch(function(e){$("amsg").textContent=e&&e.code=="conflict"?"تم تعديل الصفحة من مكان آخر، أعد فتحها.":"تعذر النشر، حاول مرة أخرى."})}
+var FORM='<div class="abar"><div class="wrap"><strong>وضع الإدارة</strong><button type="button" class="abtn" id="aadd">إضافة وحدة</button><button type="button" class="abtn" id="apub">نشر التغييرات</button><span id="amsg" aria-live="polite"></span></div></div><dialog id="fdlg"><div class="ff"><h3>بيانات الوحدة</h3><div class="row2"><label>النوع<select id="ft"><option value="sale">للبيع</option><option value="rent">للإيجار</option></select></label><label>المنطقة<select id="fa">'+areas.map(function(a){return"<option>"+a+"</option>"}).join("")+'</select></label></div><label>العنوان<input id="fn"></label><div class="row2"><label>الغرف<input id="fr" type="number" min="1"></label><label>الحمامات<input id="fb" type="number" min="1"></label></div><div class="row2"><label>المساحة (م²)<input id="fm" type="number" min="0"></label><label>السعر (جنيه)<input id="fp" type="number" min="0"></label></div><label>رابط الموقع على خرائط جوجل<input id="fmap" dir="ltr" placeholder="https://maps.app.goo.gl/..."></label><div id="frent" class="ff" style="padding:0"><label>نوع الإيجار<select id="fk"><option value="apt">الشقة كلها</option><option value="beds">بالسرير</option></select></label><label id="fapt"><span><input type="checkbox" id="fv" style="width:auto"> الشقة فاضية حاليًا</span></label><div id="fbeds" class="row2"><label>عدد السراير<input id="fbt" type="number" min="1"></label><label>المحجوز منها<input id="fbk" type="number" min="0"></label></div></div><label>وصف<textarea id="fd" rows="2"></textarea></label><label>الصور<input id="ffile" type="file" accept="image/*" multiple></label><div class="pv" id="fphv"></div><div class="err" id="fer" aria-live="polite"></div><div class="acts"><button type="button" class="abtn" id="fsave">حفظ</button><button type="button" class="abtn" id="fcancel">إلغاء</button></div></div></dialog>';
+function initAdmin(){if(!window.claude||!claude.use)return;
+ Promise.all([claude.use("user"),claude.use("assets"),claude.use("artifact")]).then(function(r){var us=r[0];assets=r[1];art=r[2];
+  if(!(us&&us.canEdit&&us.canEdit()&&art))return;
+  admin=true;$("adminslot").innerHTML=FORM;
+  $("aadd").onclick=function(){openF()};$("apub").onclick=pub;$("fcancel").onclick=function(){$("fdlg").close()};$("fsave").onclick=save;
+  $("ft").onchange=tog;$("fk").onchange=tog;
+  $("fphv").onclick=function(e){var b=e.target.closest("[data-rm]");if(b){fph.splice(+b.dataset.rm,1);drawPh()}};
+  $("ffile").onchange=function(){var fl=[].slice.call(this.files),inp=this;
+   if(!assets){$("fer").textContent="رفع الصور غير متاح لحسابك.";return}
+   $("fer").textContent="جاري رفع الصور…";
+   fl.reduce(function(pr,f){return pr.then(function(){return assets.upload(f).then(function(x){fph.push(x.id)})})},Promise.resolve()).then(function(){$("fer").textContent="";drawPh()}).catch(function(){$("fer").textContent="تعذر رفع بعض الصور.";drawPh()});inp.value=""}
+ }).catch(function(){})}
+$("area").innerHTML='<option value="">كل المناطق</option>'+areas.map(function(a){return"<option>"+a+"</option>"}).join("");
+$("chips").innerHTML=areas.map(function(a){return'<button type="button">'+a+"</button>"}).join("");
+$("tabs").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;st.t=b.dataset.t;
+ this.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",x==b)});render()});
+$("chips").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;$("area").value=b.textContent;render();$("units").scrollIntoView()});
+$("list").addEventListener("click",function(e){var c=e.target.closest(".card");if(c)openD(c.dataset.id)});
+$("dlg").addEventListener("click",function(e){var t=e.target,g=t.closest("[data-g]"),th=t.closest("[data-i]");
+ if(t===$("dlg")||t.closest("[data-x]"))$("dlg").close();
+ if(g){gi=(gi+ +g.dataset.g+cur.ph.length)%cur.ph.length;drawD()}
+ if(th){gi=+th.dataset.i;drawD()}
+ if(t.closest("[data-ed]")){$("dlg").close();openF(cur)}
+ if(t.closest("[data-del]")&&confirm("حذف هذه الوحدة؟")){U.splice(U.indexOf(cur),1);mark();$("dlg").close();render()}});
+$("area").onchange=render;$("rooms").onchange=render;
+$("form").addEventListener("submit",function(e){e.preventDefault();
+ window.open(wa($("who").value,"الاسم: "+$("n").value+"\n"+$("m").value),"_blank")});
+$("y").textContent=new Date().getFullYear();
+render();initAdmin();
+})();
+</script>
+
+
+</body></html>
